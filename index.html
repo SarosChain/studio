@@ -1,0 +1,741 @@
+<!DOCTYPE html><html lang="en"><head>
+   <meta name="google-site-verification" content="_W5sQ4tzCW7bgRqBwtR4VZxwPfXvcL-Vu0pyg2h8YY4" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAROS - Gaming Studio</title>
+  <!-- site favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+  <!-- bootstrap 4  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- fontawesome 5  -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- line-awesome webfont -->
+  <link rel="stylesheet" href="css/line-awesome.min.css">
+  <!-- custom select css -->
+  <link rel="stylesheet" href="css/nice-select.css">
+  <!-- animate css  -->
+  <link rel="stylesheet" href="css/animate.min.css">
+  <!-- lightcase css -->
+  <link rel="stylesheet" href="css/lightcase.css">
+  <!-- slick slider css -->
+  <link rel="stylesheet" href="css/slick.css">
+  <!-- style main css -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- prealoader start  -->
+  
+  <!-- prealoader end -->
+
+  <!-- scroll-to-top start -->
+  <div class="scroll-to-top">
+    <span class="scroll-icon">
+      <i class="las la-arrow-up"></i>
+    </span>
+  </div>
+  <!-- scroll-to-top end -->
+  <!-- page-wrapper start -->
+  <div class="page-wrapper">
+    <!-- login modal -->
+    <div class="modal fade" id="loginModal" tabindex="1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-transparent">
+          <div class="modal-body">
+            <div class="account-area">
+              <h3 class="title mb-4">Welcome to SAROS</h3>
+              <form class="account-form">
+                <div class="form-group">
+                  <label>Your Email </label>
+                  <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Password </label>
+                  <input type="password" name="login_email" placeholder="Enter Your Password" class="form-control">
+                </div>
+                <div class="form-group">
+                  <p>Forgot your password? <a href="#0">recover password</a></p>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="cmn-btn">Sign IN</button>
+                </div>
+              </form>
+              <div class="or-devider mt-5"><span>OR</span></div>
+              <div class="text-center mt-4">
+                <p>Sign up with your work email</p>
+                <a href="#0" class="google-btn mt-4 mb-3"><img src="images/google.png" alt="image">Sign Up
+                  with Google</a>
+                <p>Don't have an account? <a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#signupModal">Sign up here</a></p>
+              </div>
+            </div><!-- account-area end -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign Up modal -->
+    <div class="modal fade" id="signupModal" tabindex="1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-transparent">
+          <div class="modal-body">
+            <div class="account-area">
+              <h3 class="title mb-4">Let's get started</h3>
+              <div class="text-center mt-4">
+                <a href="#0" class="google-btn mt-4 mb-3"><img src="images/google.png" alt="image">Sign Up
+                  with Google</a>
+              </div>
+              <div class="or-devider mt-4"><span>OR</span></div>
+              <p class="text-center mt-2 mb-4">Sign up with your work email</p>
+              <form class="account-form">
+                <div class="form-group">
+                  <label>Your Email </label>
+                  <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="cmn-btn">Try It Now</button>
+                </div>
+              </form>
+              <p class="text-center mt-3">Already have an account?<a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Sign In</a></p>
+            </div><!-- account-area end -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header-section start  -->
+    <header class="header">
+      <div class="header__bottom">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl align-items-center">
+            <a class="site-logo site-title" href="index.html"><img src="images/logo.png" alt="site-logo"><span class="logo-icon"><i class="flaticon-fire"></i></span></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu-toggle"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav main-menu ml-auto">
+                <li class="menu_has_children">
+                  <a href="#">Home</a>
+                  <ul class="sub-menu">
+                    <li><a href="https://sarosmoon.live">Back Home </a></li>                    
+                  </ul>
+                </li>              
+               
+                <li class="menu_has_children">
+                  <a href="https://sites.google.com/view/saros-whitepaper/whitepaper">Whitepaper</a>
+                  <ul class="sub-menu">
+                    <li><a href="https://sites.google.com/view/saros-whitepaper/whitepaper">Whitepaper</a></li>
+                  </ul>
+                </li>
+                <li><a href="http://sarosmoon.live/contact.html">contact</a></li>
+              </ul>
+              <div class="nav-right">
+                <a href="#0" data-toggle="modal" data-target="#loginModal">join now</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div><!-- header__bottom end -->
+    </header>
+    <!-- header-section end  -->
+
+    <!-- hero section start -->
+    <section class="hero bg_img" data-background="assets/images/bg/hero.jpg">
+      <div class="hero__shape">
+        <img src="images/shape.png" alt="image">
+      </div>
+      <div class="el-1"><img src="images/el-1.png" alt="image"></div>
+      <div class="el-2"><img src="images/el-2.png" alt="image"></div>
+      <div class="el-3"><img src="images/el-3.png" alt="image"></div>
+      <div class="el-4"><img src="images/el-4.png" alt="image"></div>
+      <div class="el-5"><img src="images/el-5.png" alt="image"></div>
+      <div class="el-6"><img src="images/el-6.png" alt="image"></div>
+      <div class="el-7"><img src="images/el-7.png" alt="image"></div>
+      <div class="el-8"><img src="images/el-8.png" alt="image"></div>
+      <div class="el-9"><img src="images/el-9.png" alt="image"></div>
+      <div class="el-10"><img src="images/el-10.png" alt="image"></div>
+      <div class="el-11"><img src="images/el-11.png" alt="image"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="hero__content">
+              <span class="hero__sub-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">SAROS GAME
+                STUDIOS</span>
+              <h2 class="hero__title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Use your NFT to Play 
+              </h2>
+              <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">Has been supported by Dog fans </p>
+              <a href="games.html" class="cmn-btn wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">Coming
+                Soon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- game section start -->
+    <section class="pt-120 pb-120 position-relative overflow-hidden">
+      <div class="game-el-1" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"><img src="images/gm1.png" alt="image"></div>
+      <div class="game-el-2" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="images/gm2.png" alt="image"></div>
+      <div class="game-el-3" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="images/gm3.png" alt="image"></div>
+      <div class="game-el-4" data-paroller-factor="0.25" data-paroller-type="foreground" data-paroller-direction="vertical"><img src="images/game-el-4.png" alt="image"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-header text-center has--bg">
+              <div class="header-image"><img src="images/header-el.png" alt="image"></div>
+              <h2 class="section-title">Play Game Mode</h2>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row mb-none-40">
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="images/online.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="images/go.png" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Online Mode</a></h3>
+                      <p>Play with many people around the world  <a href="#0"></a></p>
+                    </div>
+                  </div>
+                  <div class="game-card__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5)</span>
+                  </div>
+                </div>
+                <div class="game-card__action">
+                  <p class="mb-2">Coming Soon</p>
+                  <a href="#0"><img src="images/apple-btn.png" alt="image"></a>
+                  <a href="#0"><img src="images/google-btn.png" alt="image"></a>
+                </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="images/single.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="images/go.png" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Single Race</a></h3>
+                      <p>This mode is to test how fast your pet is <a href="#0"></a></p>
+                    </div>
+                  </div>
+                  <div class="game-card__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5)</span>
+                  </div>
+                </div>
+                <div class="game-card__action">
+                  <p class="mb-2">Coming Soon</p>
+                  <a href="#0"><img src="images/apple-btn.png" alt="image"></a>
+                  <a href="#0"><img src="images/google-btn.png" alt="image"></a>
+                </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="images/pra.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="images/go.png" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Practice Mode </a></h3>
+                      <p>In order to beat your opponent you have to practice first <a href="#0"></a></p>
+                    </div>
+                  </div>
+                  <div class="game-card__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5)</span>
+                  </div>
+                </div>
+                <div class="game-card__action">
+                  <p class="mb-2">Coming Soon</p>
+                  <a href="#0"><img src="images/apple-btn.png" alt="image"></a>
+                  <a href="#0"><img src="images/google-btn.png" alt="image"></a>
+                </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="images/multi.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="images/go.png" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Multiplayer Mode</a></h3>
+                      <p>Invite your friends to play together. <a href="#0"></a></p>
+                    </div>
+                  </div>
+                  <div class="game-card__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5)</span>
+                  </div>
+                </div>
+                <div class="game-card__action">
+                  <p class="mb-2">Coming Soon</p>
+                  <a href="#0"><img src="images/apple-btn.png" alt="image"></a>
+                  <a href="#0"><img src="images/google-btn.png" alt="image"></a>
+                </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="images/champ.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="images/go.png" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Champions Race</a></h3>
+                      <p>Grab Championships and get prizes. <a href="#0">Read More</a></p>
+                    </div>
+                  </div>
+                  <div class="game-card__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5)</span>
+                  </div>
+                </div>
+                <div class="game-card__action">
+                  <p class="mb-2">Coming Soon</p>
+                  <a href="#0"><img src="images/apple-btn.png" alt="image"></a>
+                  <a href="#0"><img src="images/google-btn.png" alt="image"></a>
+                </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="images/rest.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="images/go.png" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Rest Mode </a></a></h3>
+                      <p>If the energy runs out immediately rest <a href="#0">Read More</a></p>
+                      <p> <a href="#0"></a></p>
+                    </div>
+                  </div>
+                  <div class="game-card__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5)</span>
+                  </div>
+                </div>
+                <div class="game-card__action">
+                  <p class="mb-2">Coming Soon</p>
+                  <a href="#0"><img src="images/apple-btn.png" alt="image"></a>
+                  <a href="#0"><img src="images/google-btn.png" alt="image"></a>
+                </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- game section end -->
+
+    <!--=====================Game Trailer Section Start================-->
+    <section class="trailer_bg">
+      <div class="trailer_head">
+        <h1>About Games</h1>
+      </div>
+    </section>
+
+    <section class="container trailer_container position-relative">
+      <div class="trailer_items">
+        <div class="trailer_thumbnail" id="thumbnail" onclick="closeThumbnail(this)">
+          <img src="images/video-thumb.jpg" alt="First Game Trailer">
+          <a href="javascript:void(0)" class="play_button">
+            <i class="fas fa-play"></i>
+          </a>
+        </div>
+        <div class="trailer_video">
+          <iframe src="https://www.youtube.com/embed/Hru2DdJxFZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="trailer_items">
+        <div class="trailer_thumbnail" id="thumbnail" onclick="closeThumbnail(this)">
+          <img src="images/trailer_two.jpg" alt="First Game Trailer">
+          <a href="javascript:void(0)" class="play_button">
+            <i class="fas fa-play"></i>
+          </a>
+        </div>
+        <div class="trailer_video">
+          <iframe src="https://www.youtube.com/embed/F4ym-99UNLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="trailer_items">
+        <div class="trailer_thumbnail" id="thumbnail" onclick="closeThumbnail(this)">
+          <img src="images/trailer_three.jpg" alt="First Game Trailer">
+          <a href="javascript:void(0)" class="play_button">
+            <i class="fas fa-play"></i>
+          </a>
+        </div>
+        <div class="trailer_video">
+          <iframe src="https://sarosmoon.live/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      
+        </div>
+      </div>
+
+      <div class="trailer_details">
+        <a class="prev" onclick="plusSlides(-1)">Prev</a>
+        <a class="next" onclick="plusSlides(1)">Next</a>
+        <div class="game_content">
+          <h4>SAROS METARACE GAMES</h4>
+          <a href="game-details.html" target="_blank">View Details</a>
+        </div>
+        <div class="game_content">
+          <h4>SWAP</h4>
+          <a href="games.html" target="_blank">View Details</a>
+        </div>
+        <div class="game_content">
+          <h4>STAKING<!DOCTYPE html>
+          <html lang="in">
+          <head>
+              <meta charset="UTF-8">
+              <title>Judul halaman</title>
+          </head>
+          <body>
+              <!DOCTYPE html>
+              <html lang="in">
+              <head>
+                  <meta charset="UTF-8">
+                  <title>Judul halaman</title>
+              </head>
+              <body>
+                  
+              </body>
+              </html>
+          </body>
+          </html></h4>
+          <a href="about.html">
+        </div>
+      </div>
+    </section>
+    <!--=====================Game Trailer Section End================-->
+
+    <!-- about section start -->
+    <section class=" pt-120 pb-120 position-relative overflow-hidden">
+      <div class="about-obj-1" data-paroller-factor="-0.08" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="images/about-obj-1.png" alt="image"></div>
+      <div class="about-obj-2" data-paroller-factor="0.08" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="images/about-obj-2.png" alt="image"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="about-content">
+              <div class="section-header has--bg">
+                <div class="header-image style--two"><img src="images/header-el-2.png" alt="image">
+                </div>
+                <h2 class="section-title"> SAROS METARACE GAMES</h2>
+              </div>
+              <p>SAROS is an NFT-based game dog racing game. SAROS was built on the blockchain to simulate real-life racing experiences. It brings dogs racing into a futuristic virtual reality. The play-to-earn game follows the trend of new generation meme coins by ensuring it has a well-defined use case and utility. The perfect combination of NFTs and P2E Bread - Race - Trade - Earn. Create a legacy by building a star-studded stable of winning racedogs. SAROS racing in the digital world is slowly but surely starting to take over real-life dog racing. With fewer costs and equally high rewards, NFT racing is starting to make a name for itself in the world of virtual sports.</p>
+              <a href="https://sarosmoon.live/" class="cmn-btn mt-5">learn more</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-lg-0 mt-4">
+            <div class="about-thumb">
+              <img src="images/about-player.png" alt="image" class="image-1">
+              <img src="images/about-phone.png" alt="image" class="image-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- overview section start -->
+    <section class="pt-120 pb-120 overflow-hidden position-relative">
+      <div class="bg-el h-75"><img src="images/overview.jpg" alt="image" class="h-100"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-header text-center has--bg">
+              <div class="header-image"><img src="images/header-el.png" alt="image"></div>
+              <h2 class="section-title">Track Record</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-none-30">
+          <div class="col-lg-4 col-md-6 mb-30 wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.3s">
+            <div class="overview-card">
+              <div class="overview-card__icon">
+                <img src="images/1.png" alt="image">
+              </div>
+              <div class="overview-card__content">
+                <h4 class="overview-card__number">Coming Soon</h4>
+                <p>Games</p>
+              </div>
+            </div><!-- overview-card end -->
+          </div>
+          <div class="col-lg-4 col-md-6 mb-30 wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+            <div class="overview-card">
+              <div class="overview-card__icon">
+                <img src="images/2.png" alt="image">
+              </div>
+              <div class="overview-card__content">
+                <h4 class="overview-card__number">Coming Soon</h4>
+                <p>players</p>
+              </div>
+            </div><!-- overview-card end -->
+          </div>
+          <div class="col-lg-4 col-md-6 mb-30 wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.7s">
+            <div class="overview-card">
+              <div class="overview-card__icon">
+                <img src="images/3.png" alt="image">
+              </div>
+              <div class="overview-card__content">
+                <h4 class="overview-card__number">+103</h4>
+                <p>champions</p>
+              </div>
+            </div><!-- overview-card end -->
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+          <div class="col-lg-10">
+            <div class="testimonial-slider">
+              <div class="testimonial-single">
+                <div class="testimonial-single__thumb" data-animation="fadeInUp" data-delay=".3s">
+                  <img src="images/1_1.png" alt="image">
+                </div>
+                <div class="testimonial-single__content" data-animation="fadeInUp" data-delay=".5s">
+                  <p>SAROS It has been developed for more than 3 years
+Supported and here for Dog lovers, SAROS was built on the blockchain to simulate real-life racing experiences , game follows the trend of new generation meme coins by ensuring it has a well-defined use case and utility.</p>
+                  <span class="designation">Akaisan</span>
+                  <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="point">(4.5)</span>
+                  </div>
+                </div>
+              </div><!-- testimonial-single end -->
+              <div class="testimonial-single">
+                <div class="testimonial-single__thumb" data-animation="fadeInUp" data-delay=".3s">
+                  <img src="images/1_1.png" alt="image">
+                </div>
+                <div class="testimonial-single__content" data-animation="fadeInUp" data-delay=".5s">
+                  <p>SAROS It has been developed for more than 3 years
+Supported and here for Dog lovers, SAROS was built on the blockchain to simulate real-life racing experiences , game follows the trend of new generation meme coins by ensuring it has a well-defined use case and utility.</p>
+                  <span class="designation">Akaisan</span>
+                  <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="point">(4.5)</span>
+                  </div>
+                </div>
+              </div><!-- testimonial-single end -->
+              <div class="testimonial-single">
+                <div class="testimonial-single__thumb" data-animation="fadeInUp" data-delay=".3s">
+                  <img src="images/1_1.png" alt="image">
+                </div>
+                <div class="testimonial-single__content" data-animation="fadeInUp" data-delay=".5s">
+                  <p>SAROS It has been developed for more than 3 years
+Supported and here for Dog lovers, SAROS was built on the blockchain to simulate real-life racing experiences , game follows the trend of new generation meme coins by ensuring it has a well-defined use case and utility.</p>
+                  <span class="designation">Akaisan</span>
+                  <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="point">(4.5)</span>
+                  </div>
+                </div>
+              </div><!-- testimonial-single end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- overview section end -->
+
+    <!-- blog section start -->
+    <section class="pt-120 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="section-header has--bg style--two">
+              <div class="header-image style--two"><img src="images/header-el-4.png" alt="image"></div>
+              <span class="section-sub-title">RECENT POSTS</span>
+              <h2 class="section-title">Game News</h2>
+            </div>
+            <a href="https://mobile.twitter.com/saroscrypto" class="cmn-btn">View All posts</a>
+          </div>
+          <div class="col-lg-8 mt-lg-0 mt-5">
+            <div class="blog-slider">
+              <div class="post-card">
+                <div class="post-card__thumb">
+                  <img src="images/1_1.jpg" alt="image">
+                </div>
+                <div class="post-card__content">
+                  <span class="date">Januari 21 2033</span>
+                  <h3 class="post-title"><a href="blog-details.html">Choose your strongest NFT</a></h3>
+                  <div class="post-author mt-3">
+                    <div class="post-author__thumb">
+                      <img src="images/author.png" alt="image">
+                    </div>
+                    <a href="#0" class="post-author__name">Jake</a>
+                  </div>
+                </div>
+              </div><!-- post-card end -->
+              <div class="post-card">
+                <div class="post-card__thumb">
+                  <img src="images/2.jpg" alt="image">
+                </div>
+                <div class="post-card__content">
+                  <a href="#0" class="post-type"><i class="las la-file-alt"></i></a>
+                  <span class="date">Januari 22 2023</span>
+                  <h3 class="post-title"><a href="blog-details.html">Present For Dog fans </a></h3>
+                  <div class="post-author mt-3">
+                    <div class="post-author__thumb">
+                      <img src="images/author.png" alt="image">
+                    </div>
+                    <a href="#0" class="post-author__name">Jake</a>
+                  </div>
+                </div>
+              </div><!-- post-card end -->
+              <div class="post-card">
+                <div class="post-card__thumb">
+                  <img src="images/1_1.jpg" alt="image">
+                </div>
+                <div class="post-card__content">
+                  <span class="date">Jan 23 2023</span>
+                  <h3 class="post-title"><a href="blog-details.html">Be a Top Player</a></h3>
+                  <div class="post-author mt-3">
+                    <div class="post-author__thumb">
+                      <img src="images/author.png" alt="image">
+                    </div>
+                    <a href="#0" class="post-author__name">Jake</a>
+                  </div>
+                </div>
+              </div><!-- post-card end -->            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section end -->
+
+
+    <!-- footer section start  -->
+    <footer class="footer-section bg_img" data-background="assets/images/elements/footer.png">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="subscribe-area">
+              <div class="obj"><img src="images/subscribe.png" alt="image"></div>
+              <div class="subscribe-content">
+                <h2 class="title">Find Out About New Games!</h2>
+                <p>Subscribe to get updated on future game releases</p>
+                <p></p>
+                <form class="subscribe-form">
+                  <input type="email" name="subscribe_email" id="subscribe_email" placeholder="Enter Your Email">
+                  <button type="submit">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+  
+
+          </div>
+        </div><!-- footer-top end -->
+        <div class="row footer-bottom align-items-center">
+          <div class="col-lg-7 col-md-6 text-md-left text-center">
+            <p class="copy-right-text">Copyright © 2023. All Rights Reserved By <a href="#0">SAROS</a></p>
+          </div>
+          <div class="col-lg-5 col-md-6 mt-md-0 mt-3">
+            <ul class="social-links justify-content-md-end justify-content-center">
+              <li><a href="#0"><i class="lab la-facebook-f"></i></a></li>
+              <li><a href="https://mobile.twitter.com/saroscrypto"><i class="lab la-twitter"></i></a></li>
+              <li><a href="https://t.me/Sarosglobal"><i class="lab la-telegram"></i></a></li>
+              <li><a href="#0"><i class="lab la-google-plus"></i></a></li>
+              <li><a href="https://instagram.com/sarostoken?igshid=Yzg5MTU1MDY="><i class="lab la-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+  </div>
+  <!-- page-wrapper end -->
+  <!-- jQuery library -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- custom select js -->
+  <script src="js/jquery.nice-select.min.js"></script>
+  <!-- lightcase js -->
+  <script src="js/lightcase.js"></script>
+  <!-- wow js -->
+  <script src="js/wow.min.js"></script>
+  <!-- slick slider js -->
+  <script src="js/slick.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <!-- contact js -->
+  <script src="js/contact.js"></script>
+
+  <script src="js/jquery.paroller.min.js"></script>
+
+  <!-- custom js -->
+  <script src="js/app.js"></script>
+
+
+</body></html>
